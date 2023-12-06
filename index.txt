@@ -1,0 +1,89 @@
+1	a	"Write a PHP Script to display the grade of the student according to percentage. Use the following conditions: 
+Percentage Grade=”Fail” Percentage >= 40 
+and Percentage <=50 => Grade= “Pass Class” 
+Percentage >=50 and Percentage <=60 => Grade= “Higher Second Class” 
+Percentage >60 and Percentage <=70 => Grade= “First Class” 
+Percentage >70 => Grade= “First Class with Distinction”"		CO1
+				
+				
+2	a	Write a PHP Script to check whether a candidate eligible or not for voting.		CO1
+	b	Write a PHP script to change the background color of the browser using a switch statement according to the day of the week		CO1
+				
+				
+3	a	Write a program using array which accepts five values and print the values		CO1
+	b	"Write a menu driven PHP program to perform the following operations on an associative array: 
+i. Display the elements of an array along with the keys. 
+ii. Display the size of an array 
+iii. Delete an element from an array from the given index. 
+iv. Reverse the order of each element’s key-value pair.[Hint: use array_flip()] 
+v. Traverse the elements in an array in random order [[Hint: use shuffle()]."		
+				CO1
+				
+4	a	Write a PHP script to calculate xy using a user defined function.		CO1
+	b	Write a PHP script to define a function EvenOdd, which will display even and odd numbers between 1 to 50		CO1
+				
+				
+5	a	Write a program to demonstrate type cast between data types integer, float & string		CO1
+	b	Write a program in PHP to display Multiplication Table using nested for loop		CO1
+				
+				
+6	a	"Write a program in PHP to display following pattern i/p n=3 o/p 
+* 
+* * 
+* * *
+* * * *
+* * * * *"		CO1
+	b	Write a program using array which accepts five values and print the values		CO1
+				
+				
+7	a	Write a program In PHP to Sort an array using Bubble Sort function		CO2
+	b	Write a program In PHP to Sort an associative array in ascending & descending order using function.		CO2
+				
+				
+8	a	Write a PHP script accept personal information & display its(Use various form elements)		CO3
+	b	Write a PHP script accept 3subject marks,seatno,subjectname & display marksheet in tabular format(Use various form elements )		CO3
+				
+				
+9	a	Write a PHP script to keept trak of number of times the web page has been access(Use Cookies)		CO4
+	b	Write a PHP script to create a form to accept student information (name, class, address). Once the student information is accepted, accept marks in next form (Phy, Bio, Chem, Maths, Marathi, English). Display the mark sheet for the student in the next form containing name, class, marks of the subject, total and percentage(Use Session)		CO3
+				
+				
+10	a	Design Login Form and Validate that form using PHP Code		CO3
+	b	Create a registration form using HTML and perform server-side validation.		CO3
+				
+				
+11	a	Student-Teacher Database Consider the following Entities and their Relationships for Student-Teacher database. Student (s_no int, s_name varchar (20), s_class varchar (10), s_addr varchar (30)) Teacher (t_no int, t_name varchar (20), qualification varchar (15), experience int) Relationship between Student and Teacher is many to many with descriptive attribute subject.		
+		1. List the names of the teachers who are teaching to a student named “Avinash”.		
+		2. List the names of the studentsto whom‘ ’ is teaching.		CO5
+		3.List the details of all teachers whose names start with the alphabet ‘T’		
+		4. List the names of teachers teaching subject ‘DBMS’.		
+		5. Find the number of teachers having qualification as ‘Ph.D.’.		
+		6. Find the number of students living in ‘Cidco’.		
+				
+				
+12	a	Write a PHP script to create an employee table using attributes employee number, employee name, address joining date and salary. If a table is created then display the appropriate message otherwise end the PHP script.		CO5
+				
+				
+13		Consider the following entities and their relationships. Employee (eno, ename, sal) Project (pno, pname,duration) Employee and Project are related with a many-many relationship. Create a RDB in 3 NF for the above.Using the above database Write a PHP script to accept the project name. Display the name of the employees and the duration of the project.		CO5
+				
+				
+14	a	Consider the following entities and their relationships Doctor (doc_no, doc_name, address, city, area) Hospital (hosp_no, hosp_name, hosp_city) Doctor and Hospital are related with many-many relationship. Create a RDB in 3 NF for the above and solve following Using above database, write a PHP script which accepts hospital name and print information about doctors visiting / working in that hospital in tabular format.		CO5
+				
+				
+15	a	Write a PHP script to delete all emp record whose salary more then 1000 &Display it. Consider Employee table as    Employee(eno,name,salary)		CO5
+	b	Write a php script to create table student(rollno,name,per)		CO5
+				
+				
+16	a	Write a PHP script to delete all emp record whose salary more then 1000 &Display it. Consider Employee table as    Employee(eno,name,salary)		CO5
+				
+				
+17	a	Write a PHP script to update emp salary increment by 10% & Display it. Consider Employee table as    Employee(eno,name,salary)		CO5
+				
+				
+18	a	Student-Teacher Database Consider the following Entities and their Relationships for Student-Teacher database. Student (s_no int, s_name varchar (20), s_class varchar (10), s_addr varchar (30)) Teacher (t_no int, t_name varchar (20), qualification varchar (15), experience int) Relationship between Student and Teacher is many to many with descriptive attribute subject.		
+		1. Find the details of maximum experienced teacher		
+		2. Find the names of student of class ‘SYBCA’ and living at ‘Kothrud’.		CO5
+		3. List name of students exactly contains 6 characters in it.		
+		4. List the names of all teachers with their subjects along with the total number of students they are teaching.		
+		5.To add phono column in student table.		
+		6. Drop the student &teacher table.		
